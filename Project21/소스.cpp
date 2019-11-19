@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main(void)
+int main()
 {
 	int data1 = 10;
 	int data2 = 20;
@@ -18,4 +18,6 @@ int main(void)
 	sum = sum + *p;
 
 	printf("sum = %d\n", sum);
+
+	return 0;
 }
